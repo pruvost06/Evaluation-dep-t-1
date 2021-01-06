@@ -1,0 +1,474 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+
+body{
+padding: 0;
+margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*---------------header---------------------------------------------*/
+.banner main{
+
+
+  position: absolute;
+  bottom: auto;
+  right: 100px;
+}
+nav ul li{
+
+  text-align: center;
+  list-style: none;
+  display: inline-block;
+  font-size: 17px;
+  margin-top: 1px;
+  margin-right: 0px;
+  margin-left: 50px;
+  cursor: pointer;
+  text-transform: none;
+  
+  }
+  
+    ul li a{                       /*---------------------menue de navigation-----------css------------------------*/
+  
+  text-decoration: none;
+  color: black;
+  
+  
+  }
+  
+  a:hover{
+  
+  background: orange;
+  border-radius: 6px;
+  border: 5px solid orange;
+  padding: 10px;
+  }
+
+
+.contenair h1{
+
+color:white ;
+position: absolute;
+bottom: 60%;
+right: 400px;
+font-weight: bold;
+
+}
+
+.contenair h3{
+
+  color:white  ;
+ position: absolute;
+ bottom: 53%;
+ right: 500px;
+ font-weight: bold;
+ }
+
+/*---------------section1---------------------------------------------*/
+
+.section1{
+
+  height: 395px;
+  width:1903px ;
+  background:#DC143C;
+}
+
+.section1 h1{
+
+   color: white;
+   font-weight: bold;
+   position: absolute;
+   bottom: -58%;
+   right: 400px;
+  
+ 
+}
+
+.section1 .p1{
+
+color: white;
+ position: absolute;
+ bottom: -73%;
+ right: 900px;
+}
+
+.section1 .p2{
+
+  color: white;
+   position: absolute;
+   bottom: -85%;
+   right: 900px;
+  }
+
+ /*---------------section2---------------------------------------------*/
+
+ .section2{
+
+  height: 760px;
+  width:1903px ;
+  background: #F5FFFA;
+}
+
+.section2 h1{
+  position: absolute;
+  bottom: -100%;
+  right: 800px;
+  color: green;
+}
+
+ /*---------------section3---------------------------------------------*/
+.section3{
+
+  height: 450px;
+  width:1903px ;
+  background:#DC143C;
+}
+
+.section3 h1{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+   margin: 10px;
+   
+}
+
+ /*---------------carte1---------------------------------------------*/
+.card1 {
+height: 300px;
+width: 325px;
+background: white;
+position: absolute;
+bottom: -220%;
+ right: 400px;
+ cursor: pointer;
+}
+
+
+.section3 p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  
+}
+ /*---------------carte2---------------------------------------------*/
+
+ .card2 {
+  height: 300px;
+  width: 325px;
+  background: white;
+  position: absolute;
+  bottom: -220%;
+   right: 800px;
+   cursor: pointer;
+  }
+  
+  
+  .section3 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+  }
+
+   /*---------------carte3---------------------------------------------*/
+
+   .card3 {
+    height: 300px;
+    width: 325px;
+    background: white;
+    position: absolute;
+    bottom: -220%;
+     right: 1200px;
+     cursor: pointer;
+    }
+    
+    
+    .section3 p{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+    }
+
+  /*---------------bande1---------------------------------------------*/
+  .section3  .bande1  {
+
+        position: absolute;
+        bottom: -230%;
+        height: 70px;
+        width:1903px ;
+        background:#2E8B57;
+
+      }
+
+      .bande1  h1  {
+
+          color: white;
+          font-weight: bold;
+          display: flex;
+          justify-content: center ;
+          align-items: center;
+          font-size: 40px;
+          margin: 10px;
+
+      }
+
+      /*-----------------------section4-------------------------------------*/
+
+      .section4{
+
+        height: 500px;
+        width:1903px ;
+        background:#F5FFFA ;
+}
+
+/*-----------------------section4-image 1------------------------------------*/
+.section4  .image1{
+
+  position: absolute;
+  bottom: -272%;
+  right: 1100px;
+  border: 2px solid orange;
+}
+/*-----------------------section4---texte--p5--------------------------------*/
+.section4 .p5{
+  position: absolute;
+  bottom: -242%;
+  color: green;
+  font-weight: bold;
+  font-size: 25px;
+
+}
+
+/*-----------------------section4--image 2-----------------------------------*/
+
+.section4  .image2{
+
+  position: absolute;
+  bottom: -315%;
+  right: 1100px;
+  border: 2px solid green;
+
+}
+/*-----------------------section4----image 3---------------------------------*/
+.section4  .image3{
+
+  position: absolute;
+  bottom: -350%;
+  right: 1100px;
+  border: 1px solid #DC143C;
+}
+
+/*-----------------------section4----texte--p6-------------------------------*/
+.section4 .p6{
+  font-family: 'Herr Von Muellerhoff', cursive;
+  font-family: 'Tangerine', cursive;
+  position: absolute;
+  bottom: -267%;
+  font-size: 15px;
+  right: 100px;
+border-width:2px;
+ border-style:dotted;
+ border-color:orange;
+ padding: 40px ;
+ box-shadow: 1px 0px 6px gray;
+ cursor: pointer;
+}
+
+.section4 .p6:hover{
+ color: orange;
+  cursor: pointer;
+}
+
+/*-----------------------section4----texte--p7-------------------------------*/
+
+.section4 .p7{
+  font-family: 'Herr Von Muellerhoff', cursive;
+  font-family: 'Tangerine', cursive;
+  position: absolute;
+  bottom: -300%;
+  font-size: 15px;
+  right: 100px;
+border-width:2px;
+ border-style:dotted;
+ border-color:green;
+ padding: 50px ;
+ box-shadow: 1px 0px 6px gray;
+ cursor: pointer;
+}
+
+.section4 .p7:hover{
+  color: green;
+   cursor: pointer;
+ }
+ 
+
+
+/*-----------------------section4----texte--p4-------------------------------*/
+
+.section4 .p8{
+  font-family: 'Herr Von Muellerhoff', cursive;
+  font-size: 15px;
+  right: 100px;
+  font-family: 'Tangerine', cursive;
+  position: absolute;
+  bottom: -350%;
+  
+border-width:2px;
+ border-style:dotted;
+ border-color:#DC143C;
+ padding: 10px ;
+ box-shadow: 1px 0px 6px gray;
+ cursor: pointer;
+}
+
+
+.section4 .p8:hover{
+  color: #DC143C;
+   cursor: pointer;
+ }
+
+
+ 
+
+/*-----------------------Footer-----------------------------------*/
+
+footer{
+
+  height: 350px;
+  width:1903px ;
+  background:#2E8B57;
+
+  position: absolute;
+  bottom: -395%;
+}
+
+/*-----------------------Footer----colum1-------------------------------*/
+.colum1{
+position: absolute;
+ bottom:14%;
+ left: 400px;
+ color:  black;
+ margin: 40px;
+ 
+}
+
+.colum1 h6{
+border: 1px solid #DC143C;
+padding:10px ;
+background:orange;
+text-align: center;
+margin: 50px;
+
+
+}
+
+.colum1 .p1{
+  position: relative;
+  bottom: -35%;
+  right: -115px;
+ margin: -20px;
+ font-size: 13px;
+
+
+}
+/*-----------------------Footer----colum2-------------------------------*/
+
+
+.colum2{
+  position: absolute;
+   bottom:20%;
+   right: 700px;
+   color:  black;
+   margin: 40px;
+   
+  }
+  
+  .colum2 h6{
+  border: 1px solid #DC143C;
+  padding:10px ;
+  background:orange;
+  text-align: center;
+  margin: 50px;
+  
+  
+  }
+  
+  .colum2 .p2{
+    position: relative;
+    bottom: -35%;
+    right: -115px;
+   margin: -20px;
+   font-size: 13px;
+
+  }
+
+  /*-----------------------Footer----colum3-------------------------------*/
+
+  .colum3{
+    position: absolute;
+     bottom:15%;
+     right: 400px;
+     color:  black;
+     margin: 40px;
+     
+    }
+    
+    .colum3 h6{
+    border: 1px solid #DC143C;
+    padding:10px ;
+    background:orange;
+    text-align: center;
+    margin: 50px;
+    
+    
+    }
+    
+    .colum3 .p3{
+      position: relative;
+      bottom: -35%;
+      right: -80px;
+     margin: -20px;
+     font-size: 12px;
+  
+    }
+  /*-----------------------Footer----colum4-------------------------------*/
+
+    .colum4{
+      position:absolute;
+      bottom: 0%;
+      height: 55px;
+      width:1903px ;
+      background:#DC143C;
+      
+}
+
+.colum4 .p1{
+
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 15px;
+font-size: 17px;
+
+
+}
+
+.social{
+
+  position:absolute;
+  bottom: 15%;
+  right: 100px;
+  cursor: pointer;
+
+}
