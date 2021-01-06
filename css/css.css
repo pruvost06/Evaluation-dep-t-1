@@ -238,7 +238,9 @@ bottom: -220%;
   bottom: -272%;
   right: 1100px;
   border: 2px solid orange;
+  cursor: pointer;
 }
+
 /*-----------------------section4---texte--p5--------------------------------*/
 .section4 .p5{
   position: absolute;
@@ -257,6 +259,7 @@ bottom: -220%;
   bottom: -315%;
   right: 1100px;
   border: 2px solid green;
+  cursor: pointer;
 
 }
 /*-----------------------section4----image 3---------------------------------*/
@@ -266,6 +269,7 @@ bottom: -220%;
   bottom: -350%;
   right: 1100px;
   border: 1px solid #DC143C;
+  cursor: pointer;
 }
 
 /*-----------------------section4----texte--p6-------------------------------*/
